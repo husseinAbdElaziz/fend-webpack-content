@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server/index.js",
-    "build": "webpack"
+    "build": "webpack",
+    "info": "webpack --json > info.json",
+    "d:module": "webpack --display-modules "
   },
   "keywords": [],
   "author": "",
